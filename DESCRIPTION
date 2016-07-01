@@ -4,3 +4,7 @@ Title: My own misc package
 Version: 1.0
 Date: 2015-02-18
 Author: Maximilien Chaumon
+License: GNU
+Description: My own misc package
+Maintainer: Max <Max.Chaumon@gmail.com>
+RoxygenNote: 5.0.1
