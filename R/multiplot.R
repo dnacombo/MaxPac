@@ -13,13 +13,17 @@
 #' 3 will go all the way across the bottom.
 #'
 
-multiplot <- function(..., plotlist=NULL, file, cols=1, rows=1, layout=NULL) {
-  require(grid)
+multiplot <- function(..., plotlist=NULL, file, cols=1, rows=NULL, layout=NULL) {
+  library(grid)
   
   # Make a list from the ... arguments and plotlist
   plots <- c(list(...), plotlist)
   
   numPlots = length(plots)
+  
+  if (is.null(rows)) {
+    rows <- ceiling(numPlots/cols)
+  }
   
   # If layout is NULL, then use 'cols' to determine layout
   if (is.null(layout)) {
