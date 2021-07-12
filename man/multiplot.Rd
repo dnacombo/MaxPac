@@ -4,7 +4,8 @@
 \alias{multiplot}
 \title{Multiple plot function}
 \usage{
-multiplot(..., plotlist = NULL, file, cols = 1, rows = 1, layout = NULL)
+multiplot(..., plotlist = NULL, file, cols = 1, rows = NULL,
+  layout = NULL)
 }
 \arguments{
 \item{cols}{Number of columns in layout}
@@ -21,4 +22,3 @@ then plot 1 will go in the upper left, 2 will go in the upper right, and
 Layout multiple ggplot objects according to number of columns and rows.
 ggplot objects can be passed in ..., or to plotlist (as a list of ggplot objects)
 }
-

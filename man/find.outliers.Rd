@@ -34,4 +34,3 @@ x <- rnorm(1000)
 y <- find.outliers(x,probs=c(.01,.99))
 
 }
-

@@ -17,4 +17,3 @@ a list with Hit and False Alarm rates
 \description{
 Predict Hit Rate and False Alarm Rates based on dprime (dp) and criterion (c) in a Yes/No task
 }
-

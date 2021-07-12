@@ -4,8 +4,8 @@
 \alias{computeMinRT}
 \title{Compute minimum Reaction Time}
 \usage{
-computeMinRT(RT, correct, bins = seq(min(RT, na.rm = T), max(RT, na.rm = T) +
-  10, by = 10), nBinSucc = 5, method = "chi2", thresh = 0.05)
+computeMinRT(RT, correct, bins = seq(min(RT, na.rm = T), max(RT, na.rm =
+  T) + 10, by = 10), nBinSucc = 5, method = "chi2", thresh = 0.05)
 }
 \arguments{
 \item{RT}{Reaction times vector (in ms or adapt bins)}
@@ -26,4 +26,3 @@ minRT the minimum Reaction Time
 \description{
 Compute minimum RT above which subjects are above chance in a 2AFC task, given RT and correctness vectors
 }
-

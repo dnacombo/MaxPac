@@ -16,5 +16,5 @@ dprime value
 }
 \description{
 Estimate criterion (c) from Hit Rate and False Alarm Rate in a Yes/No task
+Formula (7) in Stanislaw and Todorov 1999
 }
-

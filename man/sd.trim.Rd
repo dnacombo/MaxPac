@@ -16,4 +16,3 @@ sd.trim(x, na.rm = FALSE, trim = 0, ...)
 \description{
 compute standard deviation after trimming...
 }
-

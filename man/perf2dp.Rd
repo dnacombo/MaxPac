@@ -16,5 +16,5 @@ dprime value
 }
 \description{
 Estimate dprime from Hit Rate and False Alarm Rate in a Yes/No task
+Formula (1) in Stanislaw and Todorov 1999
 }
-

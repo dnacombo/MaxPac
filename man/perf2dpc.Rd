@@ -15,6 +15,5 @@ perf2dpc(hitR, faR)
 a list with dp and c values
 }
 \description{
-Estimate criterion (c) from Hit Rate and False Alarm Rate in a Yes/No task
+Estimate dprime (dp) and criterion (c) from Hit Rate and False Alarm Rate in a Yes/No task
 }
-

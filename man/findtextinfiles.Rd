@@ -25,4 +25,3 @@ Print file names and line numbers where a text pattern is found in all text file
 findtextinfiles('function')
 
 }
-
