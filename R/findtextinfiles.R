@@ -1,4 +1,5 @@
 
+library(crayon)
 
 #' Find text in files
 #' 
@@ -19,13 +20,13 @@ findtextinfiles <- function (tofind,filter='\\.R(md)?$',dir=getwd(),full.names=T
   
   if (length(fs) > 0){
     for (i in 1:length(fs)) {
-      t = readLines(fs[[i]])
+      t = readLines(fs[[i]], warn = F)
       found = grepl(tofind,t)
       if (any(found)) {
-        cat("In: ", fs[i],'\n')
+        cat(red(bold(underline("In: ", fs[i]))),'\n')
         found = which(found)
         for (ii in 1:length(found)) {
-          cat('line', found[ii], ':', t[found[ii]],'\n')
+          cat(blue('\tline', found[ii], ':'), t[found[ii]],'\n')
         }
       }
     }
