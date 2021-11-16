@@ -1,5 +1,4 @@
 
-library(crayon)
 
 #' Find text in files
 #' 
@@ -11,9 +10,11 @@ library(crayon)
 #' @param full.names logical: Whether to return full path to files or not (default \code{TRUE})
 #' @param recursive logical: Whether to search subdirectories (default \code{FALSE})
 #' @examples
+#' @import crayon
 #' findtextinfiles('function')
 #' 
 
+library(crayon)
 
 findtextinfiles <- function (tofind,filter='\\.R(md)?$',dir=getwd(),full.names=T,recursive = F){
   fs = list.files(path=dir,pattern=filter,full.names = full.names,recursive=recursive)

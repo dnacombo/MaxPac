@@ -8,3 +8,4 @@ License: GNU
 Description: My own misc package
 Maintainer: Max <Max.Chaumon@gmail.com>
 RoxygenNote: 6.1.1
+Imports: crayon
